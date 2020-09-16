@@ -22,6 +22,8 @@ Count_Bumps_Point_Cloud_DBSCAN.ipynb is a jupyter notebook with the count_bumps 
 
 Count_Bumps_Point_Cloud_EDA.ipynb is a jupyter notebook that shows my exploratory process for loading, cleaning, and visualizing the data before designing the DBSCAN model.  It contains notes of my thought process in markdown cells.  
 
+pastedImagebase640.png is a visual representation of the point cloud in bumps_16.
+
 ## Function
 
 This function, count_bumps_DBSCAN, is designed to count the number of structures in a 3D point cloud that rise above (or fall below) the flat 2D plane at height 0.  
