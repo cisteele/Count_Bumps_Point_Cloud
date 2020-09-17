@@ -30,7 +30,7 @@ This function, count_bumps_DBSCAN, is designed to count the number of structures
 
 The function requires numpy imported as np, pandas imported as pd, and the DBSCAN class imported from sklearn.cluster.
 
-The function first removes all datapoints at height 0, then inputs the lateral coordinates (components 0 and 1) into the Density-Based Spacial Clustering Applications with Noise model, https://en.wikipedia.org/wiki/DBSCAN.  
+The function first removes all datapoints at height 0, then inputs the lateral coordinates (components 0 and 1, or x and y) into the Density-Based Spacial Clustering Applications with Noise model, https://en.wikipedia.org/wiki/DBSCAN.  
 
 The DBSCAN model operates by selecting a random point in the dataset, then counts the number of points which are within a distance set by the epsilon value (eps) hyperparameter.  Then, if that count is higher than the min_samples hyperparameter, the model creates a cluster and continues adding any points to that cluster that are within distance episolon of another point in the cluster.  Once there are no more points to add to the cluster, the model picks a random new point and begins the process anew.  Any points that are not within epsilon distance of a number of other points greater than min_samples will be labeled as noise with a -1 and not addeed to any cluster. 
 
