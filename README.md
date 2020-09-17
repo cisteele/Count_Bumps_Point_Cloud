@@ -18,7 +18,7 @@ count_bumps_DBSCAN.py is a python file that imports dependencies (numpy, pandas,
 
 count_bumps_DBSCAN_test.py is a python file that defines count_bumps_DBSCAN, and the calls that function with the bumps.txt file as the arguement.  It returns the solution to the number of bumps on the test data. 
 
-Count_Bumps_Point_Cloud_DBSCAN.ipynb is a jupyter notebook with the count_bumps function and an example of it solving the bumps_16.txt and the bumps.txt datasets and timing the solution.  
+Count_Bumps_Point_Cloud_DBSCAN.ipynb is a jupyter notebook with the count_bumps function and an example of it solving the bumps_16.txt and then bumps.txt datasets and timing the solution.  
 
 Count_Bumps_Point_Cloud_EDA.ipynb is a jupyter notebook that shows my exploratory process for loading, cleaning, and visualizing the data before designing the DBSCAN model.  It contains notes of my thought process in markdown cells.  
 
