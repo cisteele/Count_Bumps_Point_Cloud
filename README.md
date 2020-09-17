@@ -40,7 +40,7 @@ Please note that this function only works on datasets where the majority of data
 
 ## Conclusion
 
-I chose this algorithm because it is a fast and simple way to find raised areas from a 2d array. It does not require the values be quantized to a grid, it does not require the bumps to be round or smooth, and it does not spend resources iterating through the entire dataset mutiple times. Also, it only require common python libraries: numpy, pandas, and sklearn.
+I chose this algorithm because it is a fast and simple way to find raised areas from a 3D array. It does not require the values be quantized to a grid, it does not require the bumps to be round or smooth, and it does not spend resources iterating through the entire dataset mutiple times. Also, it only require common python libraries: numpy, pandas, and sklearn.
 
 I manually discovered the hyperparametes eps = 6 and min_samples = 2 by using knowledge of the use case, dataset, and a few minutes of trial and error. However, for a better tuned model we could use a grid search to find the best hyperparameters. However, in this case with only one training dataset which contains only 16 instances, I do not believe a grid search would be especially effective.
 
